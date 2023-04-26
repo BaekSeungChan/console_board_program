@@ -1,0 +1,150 @@
+.bug1 {
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.eye1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+
+}
+
+.blackeye1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50px;
+    top: 18px;
+    left: 10px;
+    z-index: 2;
+}
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.circle3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.circle4 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+
+.circle5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 220px;
+    top: 80px;
+}
+
+.bug2 {
+    position: relative;
+    top: 300px;
+    left: 800px;
+    z-index: 1;
+}
+
+.eye2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+
+}
+
+.circle6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle7 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.circle8 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.circle9 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+
+.circle10 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 220px;
+    top: 80px;
+}
+
+img {
+    position: relative;
+    width: 500px;
+    top: 250px;
+    left: 700px;
+}
