@@ -1,0 +1,176 @@
+/*COMMON*/
+
+.aaa{
+  width: 400px;
+  margin: 0 auto;
+}
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
+    display: block;
+  }
+
+  .notice {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .notice .notice-line .inner {
+    height: 62px;
+    display: flex;
+  }
+  .notice .notice-line .inner__left .swiper-container {
+    height: 62px;
+    flex-grow: 1;
+  }
+  .notice .notice-line .inner__left .swiper-slide {
+    height: 62px;
+    display: flex;
+    align-items: center;
+  }
+  .notice .notice-line .inner__left .swiper-slide a {
+    color: #333;
+  }
+
+  .notice .notice-line .inner__left .notice-line__more .material-icons {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  /* main img log */
+
+  main{
+    position: relative;
+  }
+
+  main .Logo{
+    margin: 0 auto;
+    max-width: 90%;
+    height: 200px;
+  }
+
+  main .text{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  /* center_select_box */
+
+  main .center_select_box {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1rem;
+    height: 34px;
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+  }
+
+  main .center_select_box div {
+    position: absolute;
+    color: #777;
+    font-size: 12px;
+    height: 12px;
+    top: 0;
+    bottom: 0;
+    left: 1rem;
+    margin: auto;
+  }
+
+  main .center_select_box .material-icons {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: auto;
+  }
+
+
+/*AWARDS*/
+.awards {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #272727;
+  }
+  .awards .swiper-container {
+    width: 100%;
+    height: 120px;
+  }
+  .awards .swiper-container .swiper-wrapper .swiper-slide img{
+    width: inherit;
+    height: inherit;
+  }
+  /* .awards .swiper-prev,
+.awards .swiper-next {
+  width: 42px;
+  height: 42px;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: .3;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+}
+.awards .swiper-prev {
+  left: -100px;
+}
+.awards .swiper-next {
+    right: -100px;
+  }
+  .awards .swiper-prev:hover,
+  .awards .swiper-next:hover {
+    background-color: #fff;
+    color: #333;
+  } */
+
+/* 뭐를 넣어야 할지 고민 */
+  main .dddd{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 150px;
+    border: 1px solid black;
+  }
+
+
+/* footer */
+footer .inner {
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0px 5px 20px 5px; 
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  footer .inner ul{
+    text-align: center;
+  }
