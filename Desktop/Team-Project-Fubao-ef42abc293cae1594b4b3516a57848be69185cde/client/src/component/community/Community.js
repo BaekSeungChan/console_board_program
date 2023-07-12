@@ -2,17 +2,19 @@ import React, { useState } from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 import FubaoMovie from "./FubaoMovie";
-import List from "./List";
+import ListMainPage from './ListMainPage'
+// import List from "./List";
 import Upload from "./Upload";
 
 const CommunityContainer = styled.div`
-  height: 1000px; 
-  width: 1100px;
+  height: 100vh; 
+  width: 100%;
   margin: 0 auto;
+  background-image: url("../goods_image/communityimg.png");
 `;
 
 const Communitysection = styled.div`
-  height: 100%; 
+  height: 96%; 
   width: 100%;
   margin: 0 auto;
   overflow: scroll;
@@ -44,11 +46,11 @@ export default function Community() {
     setMovieVisible(false);
   };
 
-  const handleMovieClick = () => {
-    setHomeVisible(false);
-    setUploadVisible(false);
-    setMovieVisible(true);
-  };
+  // const handleMovieClick = () => {
+  //   setHomeVisible(false);
+  //   setUploadVisible(false);
+  //   setMovieVisible(true);
+  // };
 
   return (
     <>
@@ -56,13 +58,13 @@ export default function Community() {
     <CommunityNav>
       <Link onClick={handleHomeClick}>LIST</Link>
       <Link onClick={handleUploadClick}>UPLOAD</Link>
-      <Link onClick={handleMovieClick}>MOVIE</Link>
+      {/* <Link onClick={handleMovieClick}>MOVIE</Link> */}
     </CommunityNav>
 
     <Communitysection>
-      {homeVisible && <List />}
+      {homeVisible && <ListMainPage />}
       {uploadVisible && <Upload />}
-      {movieVisible && <FubaoMovie />}
+      {/* {movieVisible && <FubaoMovie />} */}
     </Communitysection> 
     </CommunityContainer>
     </>

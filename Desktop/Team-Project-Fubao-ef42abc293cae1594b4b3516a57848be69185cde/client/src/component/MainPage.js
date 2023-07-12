@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import About from '../component/Main/About'
 import Home from '../component/Main/Home'
 import Map from '../component/Main/Map'
+import Main from '../component/Main/Main'
 
 
 const MainPage = () => {
@@ -21,11 +22,14 @@ const MainPage = () => {
 
   return (
     <>
-      <Element name="today_ranking">
-          <Home/>
+      <Element name="main" >
+        <Main />
       </Element>
       <Element name="introduce" >
         <About />
+      </Element>
+      <Element name="today_ranking">
+        <Home/>
       </Element>
       <Element name="location_map">
         <Map />
